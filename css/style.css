@@ -1,0 +1,386 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* margin: 0; */
+}
+
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    /* width: 1500px;
+    margin: 0 auto; */
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    min-height: 8vh;
+}
+.nav-links {
+    display: flex;
+    justify-content:space-around;
+    width: 35%;
+}
+.nav-links a
+{
+    text-decoration: none;
+    font-weight:190 ;
+    font-size:15px ;
+}
+.nav-links li {
+    list-style: none;
+}
+
+.navbar li a {
+    cursor: pointer;
+}
+
+
+.navbar #main-head 
+{
+    letter-spacing: 4px;
+    font-size: 26px;
+}
+
+.navbar #head-Style:hover {
+    color: #11a2bf;
+    cursor: pointer;
+}
+
+
+/* main name top left css */
+
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #11a2bf;
+}
+.Nav-button
+{
+    cursor: pointer;
+    display: none;
+}
+.Nav-button div
+{
+    width: 25px;
+    height: 2px;
+    background-color: #f0efef;
+    margin: 5px;
+}
+/* navbar css */
+
+.head-section {
+    width: 100%;
+    height: calc(100vh);
+    background-image: url("../img/gg.gif");
+    background-size: cover;
+    margin-top: -23px;
+}
+
+.intro {
+    padding: 200px 0 0 100px;
+}
+.intro h2
+{
+    font-size: 30px;
+}
+.intro h4
+{
+font-size: 20px;
+}
+.intro #head-desc
+{
+    padding-bottom: 10px;
+}
+.intro h2 {
+    font-weight: 400;
+    padding-left: 53px;
+}
+
+.head-section a {
+    /* text-decoration: none; */
+    color: gray;
+    /* padding-left: 125px; */
+}
+
+.intro #CV {
+    margin-left: 100px;
+    padding: 15px 25px;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+}
+
+.intro h4 #CV:hover {
+    cursor: pointer;
+    background-color: #11a2bf;
+    color: black;
+    border-color: white;
+}
+
+.intro h4 {
+    font-weight: 300;
+    color: gray;
+}
+
+.intro #Port {
+    width: 730px;
+    height: 400px;
+    float: right;
+}
+
+.info-section h1 {
+    font-size: 1.7em;
+    margin: 170px 0 0 0;
+    color: black;
+    font-weight: 550;
+}
+
+.info-section h4 {
+    color: #666665;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.info-section hr {
+    margin-top: 4px;
+    margin-bottom: 55px;
+    height: 1.2px;
+    background-color: #ACA9A9;
+    width: 60px;
+}
+
+#Me {
+    max-width: 200px;
+}
+
+.info-section h4 {
+    padding-bottom: 6px;
+    margin: 10px 200px;
+    font-size: 20px;
+    color: rgb(78, 72, 72);
+    font-weight: 400;
+}
+
+.info-section #End {
+    margin-bottom: 200px;
+}
+
+.Projects-section {
+    background-color: #f0efef;
+    padding-bottom: 140px;
+}
+
+.Projects-section h1 {
+    padding-top: 100px;
+    font-size: 1.7em;
+    margin: 10px 0 0 0;
+    color: black;
+    font-weight: 550;
+    text-align: center;
+}
+
+.Projects-section hr {
+    margin-top: 4px;
+    margin-bottom: 55px;
+    height: 1.2px;
+    background-color: #ACA9A9;
+    width: 60px;
+}
+
+.Projects {
+    /* margin-left: 50px; */
+    padding: 30px;
+}
+
+.Projects img {
+    width: 384px;
+    height: 196px;
+}
+
+.description {
+    padding: 20px 0;
+    max-width: 384px;
+    margin-top: -25px;
+    background-color: white;
+    text-align: center;
+}
+
+.description #Pro_header,
+#Pro_desc {
+    color: black;
+}
+
+.description #Pro_header {
+    font-size: 1.1em;
+}
+
+.description #Pro_desc {
+    font-size: 0.9em;
+    color: gray;
+}
+.more-about-me
+{
+    padding-bottom: 50px;
+}
+
+.more-about-me h1 {
+    padding: 70px;
+    padding-bottom: 50px;
+    font-size: 1.7em;
+    margin: 10px 0 0 0;
+    color: black;
+    font-weight: 550;
+    text-align: center;
+}
+
+.More-info #More_header,
+#More_desc {
+    color: black;
+}
+
+.More-info #More_header {
+    font-size: 21px;
+}
+
+.More-info #More_desc {
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.More-info .circle {
+    margin-left: 90px;
+    height: 190px;
+    width: 190px;
+    background-color: #11a2bf;
+    border-radius: 50%;
+}
+
+.More-info {
+    display: inline-block;
+    padding: 20px 0;
+    max-width: 384px;
+    margin-top: -25px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.Contact-me {
+    background: linear-gradient(360deg, rgba(223, 223, 223, 1) 0%, rgba(255, 255, 255, 1) 69%, rgba(255, 255, 255, 1) 100%);
+}
+
+.Contact-me h1 {
+    padding-top: 110px;
+    font-size: 1.7em;
+    margin: 10px 0 0 0;
+    color: black;
+    font-weight: 550;
+    text-align: center;
+}
+
+.Contact-me hr {
+    margin-top: 4px;
+    margin-bottom: 25px;
+    height: 1.2px;
+    background-color: #ACA9A9;
+    width: 60px;
+}
+
+.info-page {
+    /* padding: 8px 30px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    /* display: inline-block; */
+    /* margin: 0 0 40px 320px; */
+}
+
+.info-page #contacts,
+#email {
+    /* margin-top: 10px; */
+    text-align: center;
+    color: black;
+}
+
+.info-page #Contact-Links {
+    font-size: 1.2em;
+    font-weight: 450;
+    color: black;
+}
+
+.info-page #Contact-Links:hover {
+    text-decoration: underline;
+}
+
+.info-page img {
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.view {
+    padding: 70px;
+    width: 550px;
+}
+/* responsive design */
+@media screen and (max-width:1030px)
+{
+    .nav-links {
+        width: 50%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    body 
+    {
+        overflow-x: hidden;
+    }
+   .nav-links
+    {
+        position: absolute ;
+        right: 0px;
+        height: 90vh;
+        top: 8vh;
+        background-color:red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li
+    {
+        opacity: 0;
+    }
+    .Nav-button
+    {
+        display: block;
+    }
+}
+.navbar-active
+{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
